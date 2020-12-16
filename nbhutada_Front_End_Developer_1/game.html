@@ -1,0 +1,39 @@
+<!-- --== CS400 File Header Information ==-- -->
+<!-- Name: Neil Bhutada -->
+<!-- Email: nbhutada@wisc.edu -->
+<!-- Team: MG -->
+<!-- Role: Front end developer 1 -->
+<!-- TA: Harit -->
+<!-- Lecturer: Florian -->
+<!-- Notes to Grader: Used Autoformat as adviced per TA. The size of scene is 600 x 600. -->
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Game</title>
+<link rel="stylesheet" type="text/css" href="game.css"/>
+<script src = "game.js"></script>
+</head>
+<body onload = "updateImage()"> <!-- updatImage() is in game.js, loads deafult images -->
+	<span id= "Status"> <! -- This when has a value will replace entire code & states player's loss or win -->
+	<span id= "Head">GARY'S REVENGE </span> <!-- This will have info about progress in the game -->
+	<div id="Group_3"> <!-- Division responsible for Gary's information -->
+		<div id="Gary">
+			Gary
+		</div>
+		<img id="Image_2" src="Image_6.png">
+	</div>
+	<div id="Group_2"> <!-- Division for formatting player's content -->
+		<div id="Group_1">
+			<span id = "User"></span>
+		</div>
+		<img id="Image_3" src="Choose Player.png">
+	</div>
+	<div id="Group_4"> <!-- division for player's health bar -->
+		<meter value="1.0" class = "health" id = "user"></meter>
+	</div>
+	<div id="Group_5"> <!-- division for user's health bar -->
+		<meter value="1.0" class = "health" id = "boss"></meter>
+	</div> 
+	</span>
+</body>
+</html> <!-- Reason I have used division is because it is easier to syle, especially while mentioning positions -->

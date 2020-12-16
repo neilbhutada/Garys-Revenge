@@ -1,0 +1,108 @@
+/* --== CS400 File Header Information ==-- */
+/* Name: Neil Bhutada */
+/* Email: nbhutada@wisc.edu */
+/* Team: MG */
+/* Role: Front end developer 1 */
+/* TA: Harit */
+/* Lecturer: Florian */
+body { /*Styling body tag */
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	background-color: black;
+	overflow: hidden; /* hidden is given to overflow to make sure that size of the webpage is restricted to 600,600*/
+}
+
+#Head{ /* This to update header of HTML file */
+	left: 60px;
+	position: absolute;
+	text-align: center;
+	font-family: Segoe UI;
+	font-size: 60px;
+	color: white;
+}
+#Group_3 { /* This for the division which is associated to holding Gary's images */
+	position: absolute;
+	height: 220px;
+	left: 365px;
+	top: 175px;
+	overflow: visible;
+}
+#Gary { /* This division consist text Gary*/
+	left: 60px;
+	top: 165px;
+	position: absolute;
+	overflow: visible;
+	text-align: left;
+	font-family: Segoe UI;
+	font-size: 45px;
+	color: white;
+}
+#Image_2 { /* Gary's image styling */
+	position: absolute;
+	height: 150px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_2 { /* This is the division for handling all the user based details */
+	position: absolute;
+	height: 200px;
+	left: 45px;
+	top: 190px;
+	overflow: visible;
+}
+#Group_1 {  /*Division for user's text */
+	position: absolute;
+	height: 50px;
+	left: 15px;
+	top: 150px;
+	overflow: visible;
+}
+#User{ /*Styling about the text the user has */
+    	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: white;
+
+
+}
+#Image_3 { /*Styling regarding the user image*/
+	position: absolute;
+	height: 150px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_4 { /* Division for the player's meter tag*/
+	position: absolute;
+	height: 35px;
+	left: 50px;
+	top: 435px;
+	overflow: visible;
+}
+.health{ /* Class for the meter tags */
+	position: absolute;
+	width: 180px;
+	height: 35px;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+}
+
+#Group_5 { /* Division for placing Boss's Health Bar */
+	position: absolute;
+	height: 35px;
+	left: 365px;
+	top: 435px;
+	overflow: visible;
+}
+#Status { /* Styling for win or loose comment at the end of the game */
+    	left: 40px;
+    	text-align: center;
+	font-family: Segoe UI;
+	font-size: 100px;
+	color: white;
+}
